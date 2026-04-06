@@ -1,0 +1,7 @@
+<svg width="400" height="400" viewBox="0 0 400 400" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M200 0 C220 180, 380 200, 400 200 C380 200, 220 220, 200 400 C180 220, 20 200, 0 200 C20 200, 180 180, 200 0 Z" fill="currentColor" fill-opacity="0.1" />
+<circle cx="200" cy="200" r="150" stroke="currentColor" stroke-width="2" stroke-opacity="0.1" stroke-dasharray="4 4" />
+<circle cx="200" cy="200" r="100" stroke="currentColor" stroke-width="2" stroke-opacity="0.15" />
+<path d="M200 50 L200 350 M50 200 L350 200 M94 94 L306 306 M94 306 L306 94" stroke="currentColor" stroke-width="1.5" stroke-opacity="0.1" />
+<circle cx="200" cy="200" r="50" fill="currentColor" fill-opacity="0.1" />
+</svg>

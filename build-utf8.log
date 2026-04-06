@@ -1,0 +1,75 @@
+﻿
+> spiritual-platform@0.1.0 build
+> next build
+
+node.exe : Γ¿» 
+Failed to load 
+next.config.ts, see 
+more info here https
+://nextjs.org/docs/m
+essages/next-config-
+error
+At line:1 char:1
++ & "C:\Program File
+s\nodejs/node.exe" 
+"C:\Program Files\no
+dejs/node_mo ...
++ ~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~
+    + CategoryInfo  
+            : NotS  
+  pecified: (Γ¿»    
+ Failed to l...x    
+t-config-error:    
+String) [], Rem    
+oteException
+    + FullyQualifie 
+   dErrorId : Nati  
+  veCommandError
+ 
+
+> Build error 
+occurred
+Error: Cannot find 
+module 
+'next-intl/plugin'
+Require stack:
+- C:\Users\Nikhil Du
+bey\OneDrive\Desktop
+\Manoj Upadhyay\next
+.config.compiled.js
+- C:\Users\Nikhil Du
+bey\OneDrive\Desktop
+\Manoj Upadhyay\node
+_modules\next\dist\b
+uild\next-config-ts\
+transpile-config.js
+- C:\Users\Nikhil Du
+bey\OneDrive\Desktop
+\Manoj Upadhyay\node
+_modules\next\dist\s
+erver\config.js
+- C:\Users\Nikhil Du
+bey\OneDrive\Desktop
+\Manoj Upadhyay\node
+_modules\next\dist\c
+li\next-test.js
+- C:\Users\Nikhil Du
+bey\OneDrive\Desktop
+\Manoj Upadhyay\node
+_modules\next\dist\b
+in\next
+    at 
+Object.<anonymous> 
+(C:\Users\Nikhil Dub
+ey\OneDrive\Desktop\
+Manoj Upadhyay\next.
+config.compiled.js:1
+1:56) {
+  code: 
+'MODULE_NOT_FOUND',
+  requireStack: 
+[Array]
+}
