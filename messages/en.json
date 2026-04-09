@@ -1,40 +1,77 @@
 {
   "Index": {
-    "title": "Pt. Manoj ji Upadhyay",
-    "subtitle": "Spiritual Service Platform in Hatkeshwar, Ujjain",
-    "pujas": "Explore Pujas",
-    "contact": "Contact Pandit Ji"
+    "title": "Pandit Manoj Upadhyay",
+    "subtitle": "Experience Divine Peace through Vedic Rituals",
+    "description": "Bring peace, positivity, and divine blessings into your life through authentic Vedic rituals performed with devotion and precision.",
+    "bookBtn": "Book Puja",
+    "callBtn": "Call Now"
   },
   "Navigation": {
     "home": "Home",
-    "pujas": "Pujas & Yagyas",
-    "portfolio": "Portfolio",
+    "about": "About",
+    "services": "Services",
     "contact": "Contact"
   },
   "Gallery": {
-    "title": "Spiritual Works & Yagyas",
-    "subtitle": "A glimpse into the divine ceremonies and grand yagyas conducted with utmost purity and devotion."
+    "title": "Vedic Ritual Highlights",
+    "subtitle": "Discover the profound moments of sacred yagyas and pujas conducted with utmost purity and devotion in Ujjain."
   },
-  "Pujas": {
-    "title": "Sacred Pujas & Doshas",
-    "subtitle": "Discover the various Vedic rituals performed to bring harmony, prosperity, and spiritual awakening.",
-    "bookBtn": "Inquire Now",
+  "About": {
+    "title": "About Pandit Ji",
+    "content": "Pandit Manoj Upadhyay is a highly experienced Vedic priest based in Ujjain, the sacred city of Mahakal. With years of expertise in performing Navgrah Shanti, Abhishek, and various Hindu rituals, he has helped countless devotees overcome obstacles and invite prosperity, peace, and spiritual balance into their lives. His approach combines deep scriptural knowledge with genuine devotion.",
+    "location": "Hatkeshwar Vihar, Ujjain, Madhya Pradesh"
+  },
+  "Services": {
+    "title": "Sacred Puja Services",
+    "subtitle": "Vedic rituals performed with purity and tradition to bring harmony and prosperity.",
     "list": {
-      "kaalSarp": {
-        "name": "Kaal Sarp Dosh Nivaran",
-        "desc": "A vital ritual performed to mitigate the malefic effects of the Kaal Sarp Dosha in one's birth chart.",
-        "significance": "Removes life obstacles and brings professional stability."
-      },
-      "mangalBhat": {
-        "name": "Mangal Bhat Puja",
-        "desc": "Special puja dedicated to Lord Shiva to pacify Mangal Dosha (Mars) ensuring a blissful married life.",
-        "significance": "Essential for marriage prospects and resolving marital discord."
+      "navgrah": {
+        "name": "Navgrah Shanti Puja",
+        "description": "Performed to balance the nine planetary influences in your life. It helps reduce doshas, remove obstacles, and bring harmony, success, and well-being.",
+        "benefits": "Reduces planetary doshas, brings professional stability."
       },
       "rudrabhishek": {
-        "name": "Maha Rudrabhishek",
-        "desc": "An elaborate offering to Lord Shiva using various sacred liquids while chanting the powerful Rudrashtadhyayi.",
-        "significance": "Brings peace, health, and spiritual enlightenment."
+        "name": "Maharudrabhishek",
+        "description": "A powerful Vedic ritual dedicated to Lord Shiva, involving the bathing of the Shiva Lingam with sacred offerings while chanting mantras.",
+        "benefits": "Inner peace, health improvements, and spiritual growth."
+      },
+      "mahamrityunjay": {
+        "name": "Mahamrityunjay Jaap",
+        "description": "A life-saving mantra jaap dedicated to Lord Shiva to overcome serious health issues and untimely troubles.",
+        "benefits": "Longevity, health, and protection from negative energies."
+      },
+      "grihapravesh": {
+        "name": "Griha Pravesh Puja",
+        "description": "Performed before entering a new home to purify the space and invite divine blessings for the family.",
+        "benefits": "Peace in the new home, removal of Vastu doshas."
+      },
+      "marriage": {
+        "name": "Marriage Puja / Vivah Sanskar",
+        "description": "Complete Vedic marriage rituals performed with traditional mantras to bless the couple for a happy life.",
+        "benefits": "Divine blessing for the union, cultural harmony."
+      },
+      "custom": {
+        "name": "Customized Rituals",
+        "description": "Special pujas tailored to your specific needs, whether it's for business success, health, or family peace.",
+        "benefits": "Personalized spiritual solutions."
       }
     }
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "Book your puja today and experience divine transformation.",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "message": "Write your message...",
+      "submit": "Send Message"
+    }
+  },
+  "Footer": {
+    "tagline": "Spreading Vedic Wisdom and Spiritual Peace.",
+    "links": "Quick Links",
+    "social": "Follow Us",
+    "copyright": "© 2024 Pandit Manoj Upadhyay. All Rights Reserved."
   }
 }

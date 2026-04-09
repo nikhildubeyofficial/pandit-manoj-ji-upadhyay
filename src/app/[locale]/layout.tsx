@@ -4,17 +4,12 @@ import { routing } from '@/i18n/routing';
 import { notFound } from 'next/navigation';
 import '../globals.css';
 import { ThemeProvider } from '@/components/ThemeProvider';
-import { Tiro_Devanagari_Hindi } from 'next/font/google';
-
-const tiro = Tiro_Devanagari_Hindi({
-    subsets: ['devanagari', 'latin'],
-    weight: ['400'],
-    variable: '--font-tiro'
-});
+import { FloatingCTA } from '@/components/FloatingCTA';
 
 export const metadata = {
-    title: 'Pt. Manoj ji Upadhyay | Spiritual Service Platform',
-    description: 'Spiritual Service Platform in Hatkeshwar, Ujjain'
+    title: 'Pandit Manoj Upadhyay | Vedic Priest in Ujjain | Navgrah Shanti & Puja',
+    description: 'Experience divine peace through Vedic rituals performed by Pandit Manoj Upadhyay in Ujjain. Specializing in Navgrah Shanti, Rudrabhishek, and more.',
+    keywords: 'Pandit in Ujjain, Manoj Upadhyay, Navgrah Shanti, Maharudrabhishek, Vedic Priest Ujjain',
 };
 
 export default async function LocaleLayout({
@@ -33,14 +28,11 @@ export default async function LocaleLayout({
     const messages = await getMessages();
 
     return (
-        <html lang={locale} suppressHydrationWarning>
-            <body className={`${tiro.variable} font-serif antialiased bg-rice-white text-charcoal dark:bg-temple-shadow dark:text-gray-100 transition-colors duration-300`}>
-                <NextIntlClientProvider messages={messages}>
-                    <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-                        {children}
-                    </ThemeProvider>
-                </NextIntlClientProvider>
-            </body>
-        </html>
+        <NextIntlClientProvider messages={messages}>
+            <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
+                {children}
+                <FloatingCTA />
+            </ThemeProvider>
+        </NextIntlClientProvider>
     );
 }
