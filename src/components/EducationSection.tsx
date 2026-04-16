@@ -59,18 +59,16 @@ export function EducationSection() {
                         whileHover={{ scale: 1.02 }}
                         viewport={{ once: true }}
                         transition={{ duration: 0.9, ease: [0.16, 1, 0.3, 1] }}
-                        className="relative rounded-[2.5rem] overflow-hidden border-[10px] border-white shadow-2xl group cursor-pointer mx-auto max-w-md"
-                        style={{ aspectRatio: '3/4' }}
+                        className="relative rounded-[2.5rem] overflow-hidden border-[10px] border-white shadow-2xl group cursor-pointer mx-auto max-w-md bg-white"
                     >
-                        <Image
+                        <img
                             src={educationImages[0]}
                             alt="Guruji's Educational Background"
-                            fill
-                            className="object-cover group-hover:scale-105 transition-transform duration-700"
+                            className="w-full h-auto block object-contain group-hover:scale-105 transition-transform duration-700 relative z-10"
                         />
-                        <div className="absolute inset-0 bg-gradient-to-t from-maroon/50 via-transparent to-transparent" />
-                        <div className="absolute inset-0 bg-gradient-to-tr from-maroon/20 via-transparent to-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                        <div className="absolute inset-0 rounded-[calc(2.5rem-10px)] ring-0 group-hover:ring-2 ring-gold/40 transition-all duration-500" />
+                        <div className="absolute inset-0 bg-gradient-to-t from-maroon/50 via-transparent to-transparent z-20 pointer-events-none" />
+                        <div className="absolute inset-0 bg-gradient-to-tr from-maroon/20 via-transparent to-gold/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 z-20 pointer-events-none" />
+                        <div className="absolute inset-0 rounded-[calc(2.5rem-10px)] ring-0 group-hover:ring-2 ring-gold/40 transition-all duration-500 z-20 pointer-events-none" />
                     </motion.div>
                 </div>
 
