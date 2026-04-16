@@ -54,6 +54,16 @@
         "name": "Customized Rituals",
         "description": "Special pujas tailored to your specific needs, whether it's for business success, health, or family peace.",
         "benefits": "Personalized spiritual solutions."
+      },
+      "mangalbhat": {
+        "name": "Mangal Bhaat Pujan",
+        "description": "A very special and powerful pooja for the peace of Mangal Dosha. Primarily performed in Ujjain, the focal point of Mars.",
+        "benefits": "Resolves marriage delays, removes hurdles in career and life."
+      },
+      "kalsarp": {
+        "name": "Kaal Sarp Dosh Shanti Pujan",
+        "description": "Crucial pooja to nullify the negative effects of Kaal Sarp Dosh when all planets come between Rahu and Ketu.",
+        "benefits": "Brings mental peace, success and career growth."
       }
     }
   },
@@ -73,5 +83,27 @@
     "links": "Quick Links",
     "social": "Follow Us",
     "copyright": "© 2024 Pandit Manoj Upadhyay. All Rights Reserved."
+  },
+  "SpecialSections": {
+    "cards": {
+      "title": "Pandit Ji's Identity & Affiliations",
+      "subtitle": "Trusted credentials and spiritual recognitions."
+    },
+    "cm": {
+      "title": "Panditji with CM Sahab",
+      "subtitle": "Divine blessings guided by Pandit Ji for the honorable Chief Minister."
+    },
+    "maharudra": {
+      "title": "Maha Rudrabhishek",
+      "subtitle": "Experience the immense power of sacred anointing of Lord Shiva."
+    },
+    "vastu": {
+      "title": "Vastu Shastra Services",
+      "subtitle": "Harmonize your living and working spaces with ancient Vedic wisdom."
+    },
+    "education": {
+      "title": "Educational Background",
+      "subtitle": "Scholar of Sanskrit and Vedic Traditions"
+    }
   }
 }

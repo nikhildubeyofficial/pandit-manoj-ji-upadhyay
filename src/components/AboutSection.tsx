@@ -28,10 +28,10 @@ export function AboutSection() {
                         className="relative aspect-[4/5] rounded-[3rem] overflow-hidden shadow-2xl border-[12px] border-white active:scale-95 transition-transform"
                     >
                         <Image
-                            src="/images/WhatsApp Image 2026-04-09 at 10.31.14 PM.jpeg"
+                            src="/images/panditji image.jpeg"
                             alt="Pt. Manoj Upadhyay"
                             fill
-                            className="object-cover"
+                            className="object-contain"
                         />
                         <div className="absolute inset-0 bg-gradient-to-t from-maroon/80 via-transparent to-transparent" />
                         
